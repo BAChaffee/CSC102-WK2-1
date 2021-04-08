@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--file creator: Brett Chaffee
+email: BRECHAF@uat.edu
+for CSC102 class SP2021Online-->
+<html>
+
+<head>
+    <!--This is the head, 
+    none of this appears in the body of the page-->
+    <script src="Code.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>
+        UAT Space Program
+    </title>
+</head>
+<script>
+    //this is a singleline javascript comment
+    /*this is
+    a multiline
+    comment*/
+
+</script>
+
+<body>
+    <!--changed the image for this assignment so that it fit the scene set up.-->
+    <img src="Space Port.jpg" <br>
+    <h1 style="font-family:fantasy">
+        Black Hole Saloon
+    </h1>
+    <h2>
+        <!--Added a subtitle for the title of the Saloon-->
+        Last stop on the way to nowhere...
+    </h2>
+
+    <script>//need to ask if there is a reason to use the document.write fuction over the <p> function because they seem to produce the same outcome
+        //document.write("Test of the document.write function");
+        //alert("This is a test of the alert function");
+    </script>
+    <p>
+        <!--Test of the paragraph tags
+    </p>
+    <!-- label for buttons-->
+    <!--<p id="countDownTimer">Start countdown here...</p>
+    <br>
+    The class links the button to the style sheet created for buttons on the webpage
+    <button class="button" onclick="countDown();">Start</button> <button class="button">Stop</button>-->
+        <!--I changed the font color to go better with the black hole colors, this was the story. I figured that the "user" won't be looking at code, so the page was better for the story-->
+    <p style="color:yellow">
+        The ramp drops beneath his feet, a cloud of dust surrounds him as he steps off his ship and down the ramp. It's been a long road, 6 years to be precise, since he's
+        been home. Traveling alone, the life of a nomad can be a lonely one at times, stops like this are to be cherished. He dusts himself off as he walks up to the run down facility. 
+        He stops to talk to the mechanic about his ship.
+    </p>
+    <p style="color:yellow">
+        "Hey, I need fuel." he says in a rough voice brought on by the years of road dust, cigars, and cheap whiskey.
+    </p>
+    <p style="color:yellow">
+        The mechanic turns around, it's not a man, but a Taragorian, a human/lizard hybrid being. "How much?"
+    </p>
+    <p style="color:yellow">
+        "200 credits"
+    </p>
+    <p style="color:yellow">
+        The traveler turns and walks into the saloon. The door is rusted and creaks as it opens. He looks around the room. Dark, gloomy, smells like where hope comes to die, like
+        the end of the galaxy should smell. There's a table on the other side of the room where some folks are playing cards. The stage to the right has some...thing...singing in some 
+        language he doesn't understand, a man is passed out at the bar, the bar tender is out collecting empty bottles from the tables.
+    </p>
+    <p style="color:yellow">
+        "Can I get ya anything stranger?"
+    </p>
+    <p style="color:yellow">
+        "Thanks, but what I have is fueling my ship, just looking for some company for a bit before I get back on the road."
+    </p>
+    <p style="color:yellow">
+        "I see, well I'll tell ya what, I'll give ya one on me. We don't get many visitors this far out on the rim. What brings you out this far?"
+    </p>
+    <p style="color:yellow">    
+        "Lookin' for work"
+    </p>
+    <p style="color:yellow">
+        "Work? Out here? What fool you been listenin' to? You'd have better luck dropping your last credit on that craps table over there. There ain't been work out this far in generations
+        now."
+    </p>
+    <p style="color:yellow">
+        The traveler turns to see the table, the dealer is asleep with empty bottles at his feet. The traveler walks over, nudges the dealer awake and pulls out his last few credits...
+    </p>
+
+    <br>
+    <!--This is where you see the outcome of the dice roll-->
+    <h3 id="crapsResults">Results of the Craps Round</h3>
+    <br>
+    <!--This is the outcome for dice 1 roll-->
+    Die 1 is: <div id="die1Res"></div><br>
+    <!--This is the outcome for dice 2 roll-->
+    Die 2 is: <div id="die2Res"></div><br>
+    Total: <div id="sumRes"></div><br>
+
+    <!--This is the dice roll button-->
+    <button class="lgButton" onclick="playCraps();">Play Craps Here!</button>
+
+
+</body>
+
+</html>
